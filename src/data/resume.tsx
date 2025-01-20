@@ -95,7 +95,7 @@ export const DATA = {
       badges: [],
       href: "https://cookr.in/",
       location: "Coimbatore, Tamil Nadu",
-      title: "Software Engineer (Internship + Fulltime)",
+      title: "Software Engineer",
       logoUrl: "/cookr.jpg",
       start: "February 2024",
       end: "November 2024",
