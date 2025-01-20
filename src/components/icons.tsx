@@ -224,6 +224,7 @@ export const Icons = {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 22 22"
+      fill="currentColor"
       id="playstation"
       {...props}
     >
@@ -235,6 +236,7 @@ export const Icons = {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 737.509 740.824"
+      fill="currentColor"
       id="whatsapp"
       {...props}
     >
