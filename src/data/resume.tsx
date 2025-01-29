@@ -135,7 +135,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Cookr - Place Order",
+      title: "Place Order - Cookr",
       href: "https://www.homefood.cookr.in/",
       dates: "April 2023 - March 2024",
       active: true,
@@ -161,7 +161,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Cinesthetic",
+      title: "Cinesthetic - Personal Project",
       href: "https://cinesthetic.netlify.app/",
       dates: "May 2023 - June 2024",
       active: true,
@@ -191,7 +191,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "SawYou",
+      title: "SawYou - Personal Project",
       href: "https://sawyou.netlify.app/",
       dates: "June 2023 - Present",
       active: true,
@@ -214,7 +214,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Startup Singam",
+      title: "Startup Singam - Noukha",
       href: "https://startupsingam.com/",
       dates: "December 2024 - January 2025",
       active: true,
