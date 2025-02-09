@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer, One Well Designed Button at a time. Mounted at /dev/null. Pine Trees are Cool",
   summary:
-    "Designer, Developer and love to craft delightful experiences for web and mobile apps. [By any chance are you a sudo user ?](https://terminal-portfolio-dun.vercel.app/). When I'm not pushing pixels or wrangling code, I'm probably obsessing over microinteractions that most people will never notice",
+    "Designer, Developer and 💖 love to craft UI experiences for web and mobile apps 🚀. I make websites so responsive, they text back 🙀!. I'm probably obsessing over microinteractions that most people will never notice ✨",
   avatarUrl: "/me.jpg",
   skills: [
     "React",

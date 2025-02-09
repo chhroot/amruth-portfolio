@@ -16,7 +16,9 @@ interface BlurFadeTextProps {
   delay?: number;
   yOffset?: number;
   animateByCharacter?: boolean;
+  suffix?: React.ReactNode;
 }
+
 const BlurFadeText = ({
   text,
   className,
@@ -25,6 +27,7 @@ const BlurFadeText = ({
   delay = 0,
   yOffset = 8,
   animateByCharacter = false,
+  suffix,
 }: BlurFadeTextProps) => {
   const defaultVariants: Variants = {
     hidden: { y: yOffset, opacity: 0, filter: "blur(8px)" },
@@ -56,28 +59,33 @@ const BlurFadeText = ({
             </motion.span>
           ))}
         </AnimatePresence>
+        {suffix}
       </div>
     );
   }
 
   return (
-    <div className="flex">
-      <AnimatePresence>
-        <motion.span
-          initial="hidden"
-          animate="visible"
-          exit="hidden"
-          variants={combinedVariants}
-          transition={{
-            yoyo: Infinity,
-            delay,
-            ease: "easeOut",
-          }}
-          className={cn("inline-block", className)}
-        >
-          {text}
-        </motion.span>
-      </AnimatePresence>
+    <div className={cn("relative", className)}>
+      <motion.div
+        initial={{ opacity: 0, y: yOffset }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 0.5,
+          delay,
+        }}
+      >
+        {text}
+        {suffix}
+      </motion.div>
+      <div
+        className="absolute inset-0 blur-lg"
+        style={{
+          opacity: 0.5,
+          transform: `translateY(${yOffset}px)`,
+        }}
+      >
+        {text}
+      </div>
     </div>
   );
 };
