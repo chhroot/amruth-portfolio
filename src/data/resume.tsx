@@ -4,9 +4,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Amruth Kiran",
   initials: "AK",
-  url: "https://dillion.io",
+  url: "https://terminal-portfolio-dun.vercel.app/",
   location: "Chennai, Tamil Nadu",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/chennai",
   description:
     "Software Engineer, One Well Designed Button at a time. Mounted at /dev/null. Pine Trees are Cool",
   summary:
