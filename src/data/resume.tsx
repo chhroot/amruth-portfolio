@@ -79,14 +79,25 @@ export const DATA = {
 
   work: [
     {
-      company: "32Mins",
+      company: "Noukha",
+      href: "https://noukha.in/",
+      badges: [],
+      location: "Coimbatore, Tamil Nadu",
+      title: "Software Engineer",
+      logoUrl: "/noukha.png",
+      start: "November 2024",
+      end: "Present",
+      description: "Crafting MVPs for startups",
+    },
+    {
+      company: "32Mins (Freelance Consultant)",
       href: "https://32mins.com/",
       badges: [],
       location: "Chennai, Tamil Nadu",
       title: "User Experience Engineer",
       logoUrl: "/32mins.jpg",
       start: "November 2024",
-      end: "Present",
+      end: "March 2025",
       description:
         "As part of the IIT-incubated startup team, led the development of Rudram Dynamics' website using Sveltekit and Sanity CMS. Created a robust digital presence for this emerging tech venture, focusing on scalability, seamless content management, and exceptional user experience.",
     },
@@ -98,7 +109,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/cookr.jpg",
       start: "February 2024",
-      end: "November 2024",
+      end: "October 2024",
       description:
         "Spearheaded the successful transition of Cookr’s native food delivery app to a highly responsive web version, augmenting user experience and accessibility, expanding the customer base to 25%. Developed Features for Cookr’s Customer and Internal Android Applications. Led collaboration between design and product teams to integrate UI elements.",
     },
