@@ -220,6 +220,7 @@ export const DATA = {
                     icon: <Icons.globe className="size-3" />,
                 },
             ],
+            image: '',
             video: '/cuptime-video.mp4',
         },
         {
@@ -296,6 +297,7 @@ export const DATA = {
                     icon: <Icons.globe className="size-3" />,
                 },
             ],
+            image: '',
             video: '/treece-video.mp4',
         },
     ],
