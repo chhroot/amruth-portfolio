@@ -10,7 +10,7 @@ export const DATA = {
     description:
         'Developer x Designer. UX so smooth, even Gollum would say "precious"',
     summary:
-        'I live at the crossroads of code and creativity 🔮. I make websites so responsive, they text back 🙀! Yes I probably added that microinteraction you didn’t notice.',
+        'I love both design 🎨 and development 🔮 — which basically means I’m obsessed with crafting user experiences that feel as good as they look. My sites are so responsive, they might just text you back 🙀. That tiny microinteraction you didn’t notice? Oh yeah… that was me 😉.',
     avatarUrl: '/me.jpg',
     skills: [
         'Next.js',
