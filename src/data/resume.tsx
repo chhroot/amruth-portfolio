@@ -1,5 +1,5 @@
-import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { Icons } from '@/components/icons';
+import { HomeIcon, NotebookIcon } from 'lucide-react';
 
 export const DATA = {
     name: 'Amruth Kiran',
@@ -170,6 +170,29 @@ export const DATA = {
             ],
             image: '/cookr-screenshot.png',
             video: '',
+        },
+        {
+            title: 'Kluney Manor - Freelance',
+            href: 'https://kluneymanor.com',
+            dates: 'April 2024',
+            active: true,
+            description:
+                'Designed and developed the responsive website for Kluney Manor, a 3-star resort. Delivered site design, SEO, image optimization, and cross-device polish to improve direct bookings and guest engagement.',
+            technologies: [
+                'Figma',
+                'Next.js',
+                'Typescript',
+                'TailwindCSS',
+            ],
+            links: [
+                {
+                    type: 'Website',
+                    href: 'https://kluneymanor.com',
+                    icon: <Icons.globe className="size-3" />,
+                },
+            ],
+            image: '',
+            video: '/kluney-video.webm',
         },
         {
             title: 'Startup Singam - Noukha',

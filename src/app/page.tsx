@@ -16,7 +16,7 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
     return (
         <main className="flex flex-col min-h-[100dvh] space-y-10">
-            <div className="cursor-none">
+            <div className="cursor-none hidden md:block">
                 <SmoothCursor />
             </div>
 
