@@ -78,6 +78,17 @@ export const DATA = {
 
     work: [
         {
+            company: 'Appbrew',
+            href: 'https://appbrew.com/',
+            badges: [],
+            location: 'Remote',
+            title: 'Associate Software Engineer',
+            logoUrl: '/appbrew.png',
+            start: 'December 2025',
+            end: 'Present',
+            description: '',
+        },
+        {
             company: 'Noukha',
             href: 'https://noukha.in/',
             badges: [],
@@ -85,7 +96,7 @@ export const DATA = {
             title: 'Software Engineer',
             logoUrl: '/noukha.png',
             start: 'November 2024',
-            end: 'Present',
+            end: 'November 2025',
             description: 'Crafting MVPs for startups',
         },
         {
@@ -93,7 +104,7 @@ export const DATA = {
             href: 'https://32mins.com/',
             badges: [],
             location: 'Chennai, Tamil Nadu',
-            title: 'User Experience Engineer',
+            title: 'UX Engineer',
             logoUrl: '/32mins.jpg',
             start: 'November 2024',
             end: 'March 2025',
